@@ -1,0 +1,131 @@
+/* VER 1.0, BitLogic.io Stylesheet */
+
+/* E.C. 2023. /*
+
+/* Header */
+.innerContent{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    margin: auto;
+    height: 64px;
+    background-color: rgba(252,252,252,255);
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.innerContent div:hover{
+    color: gray;
+
+}
+
+/* Nav Bar Logo */
+
+img {
+    cursor: pointer;
+    width: 13%;
+    height: auto;
+    background-color: rgba(252,252,252,255);
+}
+
+/* List Link Config */
+
+ul li {
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    display: inline-block;
+    padding-left: 60px;
+    flex: 1;
+    text-align: right;
+
+}
+
+/* UL LI Styling Config */
+
+ul li :link {
+    text-decoration: none;
+    color: #111111;
+}
+
+ul li :visited {
+    text-decoration: none;
+    color: #111111;
+}
+
+ul li :hover {
+    text-decoration: none;
+    color: #111111;
+}
+
+ul li :active {
+    text-decoration: none;
+    color: #111111;
+}
+
+/* Remove Page Border */
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+/* Homepage Image */
+
+#imgSpan {
+    background-image: url('homeBackground-triangle.jpg');
+    background-repeat: no-repeat center top;
+    background-size: contain;
+    background-position: center center;
+    height: 100vh;
+    max-width: 120%;
+    background-size: cover;
+}
+
+form {
+    font-family: 'Nunito', sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #7f7f7f;
+  }
